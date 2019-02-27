@@ -1,0 +1,22 @@
+{
+  "name": "@wondermove/dic",
+  "version": "0.1.0",
+  "description": "wonderpool app dictionary",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wondermove/dic.git"
+  },
+  "keywords": [
+    "dictionary"
+  ],
+  "author": "skkim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wondermove/dic/issues"
+  },
+  "homepage": "https://github.com/wondermove/dic#readme"
+}
