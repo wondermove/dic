@@ -5,6 +5,7 @@ eventTypeDic.set('shutdown', '운행 종료');
 eventTypeDic.set('carpoolExit', '카풀 종료');
 eventTypeDic.set('carpoolOut', '카풀 종료');
 eventTypeDic.set('firstBoardingDate', '최초 탑승일');
+eventTypeDic.set('lastBoardingDate', '마지막 탑승일');
 
 const eventTypeRDic = new Map();
 eventTypeRDic.set('미운행', 'noDriving');
@@ -12,6 +13,7 @@ eventTypeRDic.set('미탑승', 'noBoarding');
 eventTypeRDic.set('운행 종료', 'shutdown');
 eventTypeRDic.set('카풀 종료', 'carpoolExit');
 eventTypeRDic.set('최초 탑승일', 'firstBoardingDate');
+eventTypeRDic.set('마지막 탑승일', 'lastBoardingDate');
 
 const eventReasonDic = new Map();
 eventReasonDic.set('vacation', '휴가');
