@@ -1,6 +1,6 @@
 {
   "name": "@wondermove/dic",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "wonderpool app dictionary",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/wondermove/dic/issues"
   },
-  "homepage": "https://github.com/wondermove/dic#readme"
+  "homepage": "https://github.com/wondermove/dic#readme",
+  "dependencies": {
+    "ramda": "^0.26.1"
+  }
 }
