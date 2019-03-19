@@ -64,6 +64,19 @@ lastCarpoolReasonRDic.set('개인 사유 (이사, 이직 등)', 'private');
 lastCarpoolReasonRDic.set('라이더 사유 (취향, 잦은 지각 등)', 'rider');
 
 
+const pointEarningMethodDic = new Map();
+pointEarningMethodDic.set('notNotifiedNonDriving', '미통보 미운행')
+pointEarningMethodDic.set('notifiedNonDriving', '통보 미운행')
+pointEarningMethodDic.set('refund', '환불')
+pointEarningMethodDic.set('etc', '기타')
+
+const pointEarningMethodRDic = new Map();
+pointEarningMethodRDic.set('미통보 미운행', 'notNotifiedNonDriving')
+pointEarningMethodRDic.set('통보 미운행', 'notifiedNonDriving')
+pointEarningMethodRDic.set('환불', 'refund')
+pointEarningMethodRDic.set('기타', 'etc')
+
+
 module.exports = {
   eventTypeDic,
   eventTypeRDic,
@@ -76,5 +89,7 @@ module.exports = {
   carpoolExitReasonDic,
   carpoolExitReasonRDic,
   lastCarpoolReasonDic,
-  lastCarpoolReasonRDic
+  lastCarpoolReasonRDic,
+  pointEarningMethodDic,
+  pointEarningMethodRDic
 }
