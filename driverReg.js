@@ -41,12 +41,12 @@ progressStatusRDic.set('심사 중', 'judgement');
 progressStatusRDic.set('운행', 'admission');
 
 const genderTypeDic = new Map();
-genderTypeDic.set('Both', '남녀누구나');
+genderTypeDic.set('both', '남녀누구나');
 genderTypeDic.set('female', '여성');
 genderTypeDic.set('male', '남성');
 
 const genderTypeRDic = new Map();
-genderTypeRDic.set('남녀누구나', 'Both');
+genderTypeRDic.set('남녀누구나', 'both');
 genderTypeRDic.set('여성', 'female');
 genderTypeRDic.set('남성', 'male');
 
