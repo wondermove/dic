@@ -1,6 +1,6 @@
 {
   "name": "@wondermove/dic",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "wonderpool app dictionary",
   "main": "index.js",
   "scripts": {

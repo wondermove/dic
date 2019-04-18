@@ -30,11 +30,11 @@ refundReqServiceTypeRDic.set('라이더', 'rider');
 refundReqServiceTypeRDic.set('드라이버', 'driver');
 
 const issueReportDecisionTypeDic = new Map();
-issueReportDecisionTypeDic.set('notNotifiedNonDriving', '미통보 미운행');
+issueReportDecisionTypeDic.set('noNotifiedNonDriving', '미통보 미운행');
 issueReportDecisionTypeDic.set('notifiedNonDriving', '통보 미운행');
 
 const issueReportDecisionTypeRDic = new Map();
-issueReportDecisionTypeRDic.set('미통보 미운행', 'notNotifiedNonDriving');
+issueReportDecisionTypeRDic.set('미통보 미운행', 'noNotifiedNonDriving');
 issueReportDecisionTypeRDic.set('통보 미운행', 'notifiedNonDriving');
 
 
