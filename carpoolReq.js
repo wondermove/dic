@@ -10,6 +10,7 @@ reqStatusDic.set('carpoolStart', '카풀 시작');
 reqStatusDic.set('carpoolOnce', '카풀 1회 이용');
 reqStatusDic.set('carpoolExit', '카풀 종료');
 reqStatusDic.set('carpoolEnd', '카풀 종료');
+reqStatusDic.set('carpoolOut', '카풀 멤버 내보내기');
 
 const reqStatusRDic = new Map();
 reqStatusRDic.set('요청', 'request');
@@ -23,6 +24,7 @@ reqStatusRDic.set('카풀 시작', 'carpoolStart');
 reqStatusRDic.set('카풀 1회 이용', 'carpoolOnce');
 reqStatusRDic.set('카풀 종료', 'carpoolExit');
 reqStatusRDic.set('카풀 종료', 'carpoolEnd');
+reqStatusRDic.set('카풀 멤버 내보내기', 'carpoolOut');
 
 const seatLocDic = new Map();
 seatLocDic.set('front', '보조석');
